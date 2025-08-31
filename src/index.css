@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Glass card */
+.glass {
+  @apply backdrop-blur-xl bg-card border border-cardBorder rounded-2xl shadow-soft;
+}
+.dark .glass {
+  @apply bg-white/10 border-white/10 shadow-soft-dark;
+}
+
+.ProseMirror {
+  outline: none;
+  min-height: 260px;
+}
+
+/* Toolbar buttons */
+.toolbar-btn {
+  @apply px-3 py-1 rounded-lg text-sm font-medium transition shadow-md bg-white hover:bg-apricot hover:text-black;
+}
+.toolbar-btn-active {
+  @apply bg-apricot text-black;
+}
+
+/* Editor area */
+.editor-surface {
+  @apply prose max-w-none bg-white/60 rounded-xl p-4;
+}
+.dark .editor-surface {
+  @apply bg-white/5 text-white prose-invert;
+}
