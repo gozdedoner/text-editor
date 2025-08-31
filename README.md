@@ -8,7 +8,7 @@ Glassmorphism rich-text editor (React + TipTap + Tailwind).
 White toolbar with **apricot (#F6A66A) hover**, autosave, theme switcher (light/dark),
 export to **.html** & **.md**.
 
-Glassmorphism rich-text editor (React + TipTap + Tailwind) with **apricot** hover, autosave, theme switcher, and export.
+
 
 ## Quick start
 ```bash
